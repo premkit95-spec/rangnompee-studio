@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>rangnompee Studio</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="rangnompee Studio icon">
+    <div>
+      <h1>rangnompee Studio</h1>
+      <div class="muted">Short educational cartoon videos, made and published by the creator of @rangnompee</div>
+    </div>
+  </header>
+  <nav><a href="./">Home</a><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a></nav>
+
+  <p>rangnompee Studio is a desktop tool used by the creator of the TikTok account <strong>@rangnompee</strong>. It helps the creator produce short, vertical, 2D animated explainer videos in Thai and publish them to their own TikTok account.</p>
+
+  <h2>How it works</h2>
+  <div class="card">
+    <ol>
+      <li><strong>Create.</strong> The tool prepares a script, narration and 2D animation for a topic the creator chooses, and renders a 1080&times;1920 MP4 video.</li>
+      <li><strong>Review.</strong> Every video waits in a review screen. The creator watches it, checks the caption, and chooses the privacy level and whether comments, duets and stitches are allowed.</li>
+      <li><strong>Post.</strong> Only after the creator clicks Post does the tool upload the video to the creator's own TikTok account through the TikTok Content Posting API. Each video is labeled as AI-generated content.</li>
+    </ol>
+  </div>
+
+  <h2>TikTok integration</h2>
+  <p>The tool uses TikTok Login Kit so the creator can sign in and authorize posting, and the Content Posting API to publish approved videos. It requests only the <code>user.info.basic</code> and <code>video.publish</code> scopes. It does not read other users' data.</p>
+
+  <footer>&copy; 2026 rangnompee Studio &middot; <a href="terms.html">Terms</a> &middot; <a href="privacy.html">Privacy</a></footer>
+</main>
+</body>
+</html>
